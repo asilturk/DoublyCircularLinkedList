@@ -30,20 +30,15 @@ class DoubleCircularList {
         void sortListFromEndToBeginning();
         void sortListFromBeginningToEnd();
         void displayElementCount();
+        void deleteItemForIndex(int pos);
+        int getPositionForElement(int value);
+        void deleteElement();
 
         /// constructor - yapici metot. Siniftan ilk obje olusturuldugunda, ikili listenin once ve sonrasindaki elemanlara deafult olarak bos (null) deger atadik.
         DoubleCircularList() {
             start = NULL;
             last = NULL;
         }
-
-
-    void deleteItemForIndex(int pos);
-
-
-    int getPositionForElement(int value);
-
-    void deleteElement();
 };
 
 
